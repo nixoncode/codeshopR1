@@ -18,7 +18,7 @@ public class Question2 {
         return gson.toJson(results);
     }
 
-    public static int sumOfDiagonals(int[][] arr) {
+    private int sumOfDiagonals(int[][] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             // as it's a 2d matrix, no need for a double loop
@@ -27,7 +27,7 @@ public class Question2 {
         return sum;
     }
 
-    public static int rowsWithRepeatedElements(int[][] arr) {
+    private int rowsWithRepeatedElements(int[][] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             boolean hasDuplicate = false;
@@ -44,7 +44,7 @@ public class Question2 {
         return sum;
     }
 
-    public static int columnsWithRepeatedElements(int[][] arr) {
+    private int columnsWithRepeatedElements(int[][] arr) {
         int count = 0;
 
         for (int i = 0; i < arr[0].length; i++) {
