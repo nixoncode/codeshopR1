@@ -5,17 +5,7 @@ import java.util.Comparator;
 
 public class Question4 {
 
-    public static void main(String[] args) {
-        int[][] interval1 = {{1,2},{2,3},{3,4},{1,3}};
-        int[][] interval2 = {{1,2},{1,2},{1,2}};
-        int[][] interval3 = {{1,2},{2,3}};
-
-        System.out.println(eraseOverlapIntervals(interval1));
-        System.out.println(eraseOverlapIntervals(interval2));
-        System.out.println(eraseOverlapIntervals(interval3));
-    }
-
-    public static int eraseOverlapIntervals(int[][] intervals){
+    public int eraseOverlapIntervals(int[][] intervals){
         if (intervals.length <= 1) {
             return 0; // No overlaps with one or fewer intervals
         }

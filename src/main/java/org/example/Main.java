@@ -54,5 +54,18 @@ public class Main {
         int target2 = 1;
         List<List<Integer>> combinations2 = question3.combinationSum(candidates2, target2);
         System.out.println(combinations2);
+
+        System.out.println("Question 4");
+        System.out.println("==========");
+
+        Question4 question4 = new Question4();
+
+        int[][] interval1 = {{1,2},{2,3},{3,4},{1,3}};
+        int[][] interval2 = {{1,2},{1,2},{1,2}};
+        int[][] interval3 = {{1,2},{2,3}};
+
+        System.out.println(question4.eraseOverlapIntervals(interval1));
+        System.out.println(question4.eraseOverlapIntervals(interval2));
+        System.out.println(question4.eraseOverlapIntervals(interval3));
     }
 }
