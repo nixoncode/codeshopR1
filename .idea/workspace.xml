@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="638de72d-609a-4b0c-89c8-953d2dbd4db9" name="Changes" comment="added questions file and answers.txt for submission">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Question1Test.java" afterDir="false" />
+    <list default="true" id="638de72d-609a-4b0c-89c8-953d2dbd4db9" name="Changes" comment="refactored to allow testing&#10;- removed stdout side effects">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Question2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Question1Test.executor": "Run",
+    "Gradle.Question1Test.testExample2.executor": "Run",
+    "Gradle.Question1Test.testExample3.executor": "Run",
+    "Gradle.Question1Test.testExample4.executor": "Run",
+    "Gradle.Question1Test.testReverse.executor": "Run",
+    "Gradle.Question2Test.testExample1.executor": "Run",
     "Gradle.codeshopR1 [:Main.main()].executor": "Run",
     "Gradle.codeshopR1 [:Question1.main()].executor": "Run",
     "Gradle.codeshopR1 [:Question2.main()].executor": "Run",
@@ -67,7 +80,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.Question2Test.testExample1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="codeshopR1.main" />
@@ -81,65 +94,109 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Question1" />
-      <module name="codeshopR1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Question1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Question1Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Question2" />
-      <module name="codeshopR1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Question1Test.testExample3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Question1Test.testExample3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Question3" />
-      <module name="codeshopR1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Question1Test.testExample4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Question1Test.testExample4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="Question4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Question4" />
-      <module name="codeshopR1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Question2Test.testExample1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Question2Test.testExample1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Question2Test.testExample1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Question4" />
-        <item itemvalue="Application.Question3" />
-        <item itemvalue="Application.Question2" />
-        <item itemvalue="Application.Question1" />
+        <item itemvalue="Gradle.Question1Test" />
+        <item itemvalue="Gradle.Question1Test.testExample4" />
+        <item itemvalue="Gradle.Question1Test.testExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +218,7 @@
       <workItem from="1704644326399" duration="521000" />
       <workItem from="1704738509316" duration="1299000" />
       <workItem from="1704740053168" duration="86000" />
-      <workItem from="1704762628538" duration="2571000" />
+      <workItem from="1704762628538" duration="4427000" />
     </task>
     <task id="LOCAL-00001" summary="codeshop task complete">
       <option name="closed" value="true" />
@@ -179,7 +236,39 @@
       <option name="project" value="LOCAL" />
       <updated>1704764562432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored to allow junit tests">
+      <option name="closed" value="true" />
+      <created>1704766431570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704766431570</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Question1 tests">
+      <option name="closed" value="true" />
+      <created>1704766645296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704766645296</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed trailing spaces in the final output.&#10;&quot;tests are good&quot;">
+      <option name="closed" value="true" />
+      <created>1704766688098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704766688098</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactored to allow testing&#10;- removed stdout side effects">
+      <option name="closed" value="true" />
+      <created>1704767107576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704767107576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +277,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="codeshop task complete" />
     <MESSAGE value="added questions file and answers.txt for submission" />
-    <option name="LAST_COMMIT_MESSAGE" value="added questions file and answers.txt for submission" />
+    <MESSAGE value="refactored to allow junit tests" />
+    <MESSAGE value="added Question1 tests" />
+    <MESSAGE value="fixed trailing spaces in the final output.&#10;&quot;tests are good&quot;" />
+    <MESSAGE value="refactored to allow testing&#10;- removed stdout side effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored to allow testing&#10;- removed stdout side effects" />
   </component>
 </project>
