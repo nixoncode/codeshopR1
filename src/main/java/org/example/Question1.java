@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Question1 {
     public  String reverseString(String s) {
-        s = s.replaceAll("\\s+", " ");
+        s = s.replaceAll("\\s+", " ").trim();
         String[] words = s.split(" ");
         ArrayList<String> rw = new ArrayList<>();
 
