@@ -17,5 +17,25 @@ public class Main {
         System.out.println(question1.reverseString(q3Input3));
         System.out.println(question1.reverseString(q4Input4));
         System.out.println(question1.reverseString(q5Input5));
+
+        System.out.println("Question 2");
+        System.out.println("==========");
+        Question2 question2 = new Question2();
+
+        int[][] q2Example1 = {
+                {1, 2, 3, 4},
+                {2, 1, 4, 3},
+                {3, 4, 1, 2},
+                {4, 3, 2, 1},
+        };
+        int[][] q2Example2 = {
+                {2, 2, 2, 2},
+                {2, 3, 2, 3},
+                {2, 2, 2, 3},
+                {2, 2, 2, 2},
+        };
+
+        System.out.println(question2.processMatrix(q2Example1));
+        System.out.println(question2.processMatrix(q2Example2));
     }
 }
