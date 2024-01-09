@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -37,5 +39,20 @@ public class Main {
 
         System.out.println(question2.processMatrix(q2Example1));
         System.out.println(question2.processMatrix(q2Example2));
+
+        System.out.println("Question 3");
+        System.out.println("==========");
+
+        Question3 question3 = new Question3();
+
+        int[] candidates1 = {2, 3, 6, 7};
+        int target1 = 7;
+        List<List<Integer>> combinations = question3.combinationSum(candidates1, target1);
+        System.out.println(combinations);
+
+        int[] candidates2 = {2};
+        int target2 = 1;
+        List<List<Integer>> combinations2 = question3.combinationSum(candidates2, target2);
+        System.out.println(combinations2);
     }
 }
